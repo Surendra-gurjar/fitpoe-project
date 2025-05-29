@@ -21,18 +21,7 @@ function AnatomySection() {
             <div className="marker-dot"></div>
             <div className="marker-label">Healthy Heart</div>
           </div>
-          {/* <div className="anatomy-marker lungs-marker">
-            <div className="marker-dot"></div>
-            <div className="marker-label">Lungs</div>
-          </div>
-          <div className="anatomy-marker teeth-marker">
-            <div className="marker-dot"></div>
-            <div className="marker-label">Teeth</div>
-          </div>
-          <div className="anatomy-marker bone-marker">
-            <div className="marker-dot"></div>
-            <div className="marker-label">Bone</div>
-          </div> */}
+        
         </div>
       </div>
       <HealthStatusCards />

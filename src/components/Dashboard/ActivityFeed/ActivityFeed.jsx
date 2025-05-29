@@ -6,12 +6,10 @@ function ActivityFeed() {
     <div className="activity-feed">
       <div className="section-header">
         <h3 className="section-title">Activity</h3>
-        {/* <button className="view-all">View All</button> */}
         <p className="activity-summary">3 appointments on this week</p>
 
       </div>
       <div className="activity-content">
-        {/* <p className="activity-summary">3 appointments on this week</p> */}
         <div className="activity-chart">
           <div className="chart-bars">
             <div className="chart-bar" style={{ height: '30%' }}></div>
