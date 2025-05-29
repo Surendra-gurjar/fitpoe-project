@@ -14,7 +14,6 @@ export const HealthData = [
       date: '14 Oct 2021', 
       status: 'warning', 
       statusText: 'Warning', 
-      // color: '#ed8936',
       icon: 'https://static.vecteezy.com/system/resources/previews/028/578/256/non_2x/teeth-3d-rendering-icon-illustration-free-png.png'
     },
     { 
