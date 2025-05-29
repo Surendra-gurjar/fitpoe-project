@@ -1,11 +1,11 @@
 import React from 'react';
-import { healthData } from '../../../data/healthData';
 import './HealthStatusCards.css';
+import { HealthData } from '../../../Data/healthData';
 
 function HealthStatusCards() {
   return (
     <div className="health-status-cards">
-      {healthData.map((item) => (
+      {HealthData.map((item) => (
         <div key={item.id} className="health-card">
           <img src= {item.icon} className="health-icon" style={{ backgroundColor: item.color }}>
            

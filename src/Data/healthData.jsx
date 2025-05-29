@@ -1,4 +1,4 @@
-export const healthData = [
+export const HealthData = [
     { 
       id: 1, 
       title: 'Lungs', 
