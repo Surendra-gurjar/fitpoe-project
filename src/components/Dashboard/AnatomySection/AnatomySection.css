@@ -1,0 +1,101 @@
+.anatomy-section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  .view-all {
+    background: none;
+    border: none;
+    color: #4299e1;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .anatomy-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .anatomy-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .anatomy-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .anatomy-marker {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  
+  .marker-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .marker-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+  }
+  
+  .heart-marker {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .heart-marker .marker-dot {
+    background-color: #38a169;
+  }
+  
+  .lungs-marker {
+    top: 30%;
+    right: 10%;
+  }
+  
+  .lungs-marker .marker-dot {
+    background-color: #e53e3e;
+  }
+  
+  .teeth-marker {
+    bottom: 25%;
+    left: 45%;
+  }
+  
+  .teeth-marker .marker-dot {
+    background-color: #d69e2e;
+  }
+  
+  .bone-marker {
+    bottom: 15%;
+    right: 20%;
+  }
+  
+  .bone-marker .marker-dot {
+    background-color: #805ad5;
+  }

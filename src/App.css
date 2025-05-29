@@ -1,0 +1,25 @@
+/* .app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+} */
+
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f7fa;
+}

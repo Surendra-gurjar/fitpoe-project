@@ -1,0 +1,78 @@
+.dashboard-main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    background-color: #f7fafc;
+    
+    
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .dashboard-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .dashboard-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+/* 
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-content h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.health-status-section {
+  grid-row: span 2;
+}
+
+.calendar-section {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.schedule-section {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .health-status-section,
+  .calendar-section,
+  .schedule-section {
+    grid-column: auto;
+    grid-row: auto;
+  }
+} */

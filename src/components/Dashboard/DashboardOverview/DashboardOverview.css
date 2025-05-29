@@ -1,0 +1,62 @@
+.dashboard-overview {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+  }
+  
+  .overview-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .overview-card {
+    background-color: #f7fafc;
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-size: 0.875rem;
+    color: #718096;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.25rem;
+  }
+  
+  .card-change {
+    font-size: 0.75rem;
+  }
+  
+  .card-change.positive {
+    color: #38a169;
+  }
+  
+  .card-change.negative {
+    color: #e53e3e;
+  }
+  
+  @media (max-width: 1200px) {
+    .overview-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overview-cards {
+      grid-template-columns: 1fr;
+    }
+  }

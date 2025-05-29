@@ -1,0 +1,55 @@
+
+
+.upcoming-schedule {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-schedule h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.schedule-day {
+  margin-bottom: 20px;
+}
+
+.appointment-row {
+  display: flex;
+  gap: 10px; 
+  /* flex-wrap: wrap; */
+}
+
+
+.checkup-image{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.schedule-day h4 {
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.appointment {
+  background-color: #d8e9fa;
+  padding: 10px 15px;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+}
+
+.appointment-title {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+}
+
+.appointment-time {
+  margin: 0;
+  color: #0c0c0c;
+  font-size: 0.9rem;
+}
